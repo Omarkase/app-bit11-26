@@ -1,11 +1,11 @@
 //นำเข้า  ข้อความ  วิว              จาก   ชื่อไลบรารี่
-import {StyleSheet, Text, View, Image} from 'react-native';
+import { Image, StyleSheet, Text, View } from 'react-native';
 
 //ส่งออก เริ่มต้น   ฟังชั่น    ชื่อฟังชั่น
 export default function App() {
   return(
     <View style={homeStyle.container}>
-      <Text style={homeStyle.title}>Nattapat</Text>
+      <Text style={homeStyle.title}>Nattapat Champudza</Text>
 
       {/* ใส่ภาพจากไฟล์ */}
       <Image 
